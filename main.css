@@ -1,35 +1,48 @@
 body {
  text-align: center;
  margin: 0%;
- background-color: rgb(237, 237, 237);
+ background-color: rgb(244, 244, 244);
+}
+h1{
+  font-family: 'Jomolhari', serif;
+  font-size: 30px;
 }
 
 #h2 {
-  /* text-colo aquamarine; */
+  font-family: 'Arvo', serif;
+
 
 }
 
+
 /* #search-btn {
-float: right;
+ float: right;
  padding: 6px;
  border: none;
  margin-top: 8px;
- /* margin-right: 16px; */
- /* font-size: 17px; */
- /* width: 20%; */
- /* padding-left: 40%; */ 
-
+ margin-right: 16px;
+ font-size: 17px;
+ width: 20%;
+ padding-left: 40%; */
 
 }
+
+/* #search-input {
+  width: 35%;
+  height: 50%;
+
+} */
 
 #logoBar {
   display: grid;
   grid-template: 33% 33% 33% / 100%;
   justify-content: space-between;
   padding-bottom: 10%;
+  font-family: 'Arvo', serif;
 }
 #logoBar img {
   padding-top: 5%;
+  padding-right: 79%;
 }
 
 #navbar {
@@ -57,8 +70,9 @@ display: grid;
 }
 
 #brackets img {
-  /* display: grid; */
-  /* grid-template: 50 50% / 50% ; */
+  display: grid;
+  grid-template: 50% 50% / 50%;
+  grid-gap: 5%;
   max-width: 100%;
   height: 83%;
   width: 86%;
@@ -69,6 +83,7 @@ display: grid;
 
 #bigbrackets {
   display: flex;
+  padding-top: 10%;
   flex-direction: row;
   justify-content: space-between;
   /* grid-template: 50% 50% / 50%; */
@@ -89,7 +104,7 @@ display: grid;
 #bigbrackets2 img {
   width: 85%;
   height: 10%;
-  padding-top: 10%;
+  padding-top: 36%;
 }
 
 #bigbrackets2 form {
@@ -104,7 +119,8 @@ display: grid;
 #topfooter {
   display: grid;
   grid-template: 30% 30% 30% / 30% 30% 30%;
-  background-color: #fff;
+  padding: 5%;
+  background-color: #bababa;
   text-decoration-style: none;
 }
 
@@ -114,4 +130,8 @@ display: grid;
 
 #dul {
   text-decoration-style: none;
+}
+
+p{
+  font-family: 'Arvo', serif;
 }
